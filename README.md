@@ -34,6 +34,31 @@
 
     Вот *как* в __этом тексте__.
 
+Также для оформления кода можно в начале и конце добавить строки с тремя символами \`,
+в первой из этих строк после символов указыватся язык програмирования, на котором написан код. Попробуем:
+```cpp
+// useless c++ program
+int main(){
+    unsigned long int a = 0;
+    while (1 == 1){
+        a++;
+        if (a > 10)
+            a = 0; 
+    }
+}
+```
+
+```python
+"""
+ useless python program
+"""
+import somemodule
+if __name__ == "__main__":
+    while True:
+        print("Wow! It works!")
+```
+
+
 # Оформление текста
 Для выделения текста одним из перечисленных ниже способов нужно с 
 добавить с двух сторон от него сооветствующие символы.
@@ -65,7 +90,19 @@
 Также созможно добавление под и под-под пунктов и другие способы создания списков
 (см. [более подробную шпаргалку](https://quarto.org/docs/authoring/markdown-basics.html)).
 
+# Ссылки
+Ссылки возможно добавлять одним из указанных ниже способов.
 
+* просто ссылка - \<https://ya.ru\>   
+* текста со ссылкой - \[Yandex\]\(https://ya.ru\)
+* текст со ссылкой и подсказкой \[Yandex\]\(https://ya.ru\ \"Ссылка на сайт Яндекса\")
+
+***
+
+# Материалы с более подробными инструкциями
+* <https://quarto.org/docs/authoring/markdown-basics.html>
+* <https://www.markdownguide.org/basic-syntax/>
+* <https://www.jetbrains.com/help/hub/Markdown-Syntax.html#quick-notes-markdown-quotes>
 
 
 
